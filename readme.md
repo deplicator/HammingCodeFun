@@ -5,8 +5,8 @@ Description
 -----------
 Command line utility with no parameters. Will ask user for a character and
 which parity (even or odd) they'd like to use, then displays that character's
-ascii values and Hamming code (8, 4). Finally it will flip a bit at random,
-and correct itself all with some pretty output.
+ascii values and [Hamming code][1] (8, 4). Finally it will flip a bit at 
+random, and correct itself all with some pretty output.
 
 Code is kind of hard to follow, needs some serious refactoring (Cyclomatic 
 complexity bandit's strike again!). Seems to work though.
@@ -56,3 +56,5 @@ Expected Output
 	    Error found at location DB.
 
 	Run again (y/n)? 
+
+[1]: http://en.wikipedia.org/wiki/Hamming_code
